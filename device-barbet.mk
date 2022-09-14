@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/tas2562/TAS_FactoryApp:$(TARGET_COPY_OUT_VENDOR)/bin/TAS_FactoryApp
 endif
 
+# Bluetooth Properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    bluetooth.hardware.power.operating_voltage_mv=3300
+
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.barbet
