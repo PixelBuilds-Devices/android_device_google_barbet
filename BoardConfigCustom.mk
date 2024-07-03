@@ -9,7 +9,7 @@ BOOT_KERNEL_MODULES += ftm5.ko
 
 include device/google/redbull/BoardConfigCustom.mk
 
-BOOT_SECURITY_PATCH := 2024-02-05
-VENDOR_SECURITY_PATCH := 2024-02-05
+BOOT_SECURITY_PATCH := 2024-07-05
+VENDOR_SECURITY_PATCH := 2024-07-05
 
 include vendor/google/barbet/BoardConfigVendor.mk
