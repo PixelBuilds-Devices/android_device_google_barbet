@@ -162,6 +162,14 @@ ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
         $(LOCAL_PATH)/init.hardware.chamber.rc.userdebug:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.$(PRODUCT_HARDWARE).chamber.rc
 endif
 
+# OMX
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-impl \
+    android.hardware.media.omx@1.0-service \
+    libstagefright_omx.vendor \
+    libavservices_minijail \
+    libavservices_minijail.vendor
+
 # Audio effects
 PRODUCT_PACKAGES += \
     libqcomvoiceprocessingdescriptors
