@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "android_device_google_redbull",
+    "target_path": "device/google/redbull",
+    "branch":"unity"
+  },
+  {
+    "repository":"android_vendor_google_barbet",
+    "target_path":"vendor/google/barbet",
+    "branch":"unity",
+    "remote":"pixelbuilds-blobs-gitlab"
+   }
+]
