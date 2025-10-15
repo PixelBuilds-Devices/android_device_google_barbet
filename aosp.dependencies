@@ -2,12 +2,11 @@
   {
     "repository": "android_device_google_redbull",
     "target_path": "device/google/redbull",
-    "branch":"infinity"
+    "branch":"infinity-oss"
   },
   {
     "repository":"android_vendor_google_barbet",
     "target_path":"vendor/google/barbet",
-    "branch":"infinity",
     "remote":"pixelbuilds-blobs-gitlab"
    }
 ]
